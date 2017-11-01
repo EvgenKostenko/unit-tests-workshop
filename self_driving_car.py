@@ -3,8 +3,7 @@ from object_detector import ObjectDetector
 
 class SelfDrivingCar(object):
 
-    def __init__(self, object_detector):
-        self.object_detector = object_detector
+    def __init__(self):
         self.speed = 0
         self.destination = None
 
